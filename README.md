@@ -30,3 +30,15 @@ For exporting textures as png files with the correct name, please use the includ
 ![Shenmue Blender 02](https://i.imgur.com/9uBF3Ux.png)
 
 ## PythonPVR
+
+The PythonPVR folder contains a set of tools, written in Python to read PVR images (thus the name). In practicality, it's very similar to the Noesis PVR tools included with the Noesis Plugin, but isolated to run independently on its own.
+
+<b>Installation</b>
+
+Download the repository zip and extract "PythonPVR" to its own directory. Copy a .pvm or .mt5 file to the PythonPVR folder (with __main__.py), for example "Map01.MT5". Run the program with ```python __main.py__ Map01.MT5```. The textures internal to the .mt5 file will be exported to the "output" folder included in the directory. Copy the source .mt5 file and the resulting .pngt files from the output folder into a new folder, and then you will be able to use those files with the Blender plugin.
+
+![Shenmue Python PVR](https://i.imgur.com/v7t8AhQ.png)
+
+## License
+
+MIT License
